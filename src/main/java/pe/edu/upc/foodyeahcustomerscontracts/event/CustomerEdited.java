@@ -4,15 +4,15 @@ import lombok.Value;
 import java.time.Instant;
 import java.util.List;
 
-
+@Value
 public class CustomerEdited{
     private String id;
-    private List<Role> customerRoles;
     private String customerName;
     private String customerAge;
-    private String username;
-    private String password;
-    public String state;
+    private String dni;
     private Instant ocurredOn;
 
+    private List<Role> customerRoles;
+    private String username;
+    private String password;
 }
