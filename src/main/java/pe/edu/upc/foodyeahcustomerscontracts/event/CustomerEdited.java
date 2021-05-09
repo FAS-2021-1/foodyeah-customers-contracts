@@ -10,9 +10,8 @@ public class CustomerEdited{
     private String customerName;
     private String customerAge;
     private String dni;
-    private Instant ocurredOn;
-
-    private List<Role> customerRoles;
+    private String customerRoles;
     private String username;
     private String password;
+    private Instant occurredOn;
 }

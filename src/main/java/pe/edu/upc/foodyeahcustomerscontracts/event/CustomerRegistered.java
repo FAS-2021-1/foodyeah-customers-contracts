@@ -10,10 +10,9 @@ public class CustomerRegistered {
     private String customerName;
     private String customerAge;
     private String dni;
-    private Instant ocurredOn;
-
     private String username;
     private String password;
-    private List<Role> customerRoles;
+    private String customerRoles;
+    private Instant occurredOn;
 
 }

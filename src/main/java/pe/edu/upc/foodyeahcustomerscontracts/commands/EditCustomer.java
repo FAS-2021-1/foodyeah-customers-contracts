@@ -12,8 +12,7 @@ public class EditCustomer{
     private String customerName;
     private String dni;
     private String customerAge;
-
-    private List<Role> customerRoles;
+    private String customerRoles;
     private String username;
     private String password;
 

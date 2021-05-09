@@ -12,9 +12,8 @@ public class RegisterCustomer{
     private String customerName;
     private String customerAge;
     private String dni;
-
     private String username;
-    private List<Role> customerRoles;
+    private String customerRoles;
     private String password;
 
 
